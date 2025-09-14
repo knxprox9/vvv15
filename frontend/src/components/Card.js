@@ -408,12 +408,12 @@ const ArrowLoaderWrapper = styled.div`
 
   .arrow span {
     display: block;
-    width: 15px;
-    height: 15px;
-    border-bottom: 5px solid white;
-    border-right: 5px solid white;
+    width: 10px;
+    height: 10px;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
     transform: rotate(45deg);
-    margin: -15px;
+    margin: -10px;
     animation: animate28797 2s infinite;
   }
 
