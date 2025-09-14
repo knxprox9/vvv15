@@ -27,9 +27,20 @@ const Card = () => {
     setIsModalOpen(true);
   };
 
-  const handleCloseModal = () => {
-    setIsModalOpen(false);
-  };
+  const products = [
+    'PlayStation',
+    'Fortnite', 
+    'Razer Gold',
+    'CrossFire',
+    'Roblox',
+    'iTunes',
+    'Google Play',
+    'Steam',
+    'Amazon',
+    'Shein',
+    'Flower Art',
+    'MasterCard'
+  ];
 
   // مكون اللودر المستمر - نمط الأسهم
   const Loader = () => (
