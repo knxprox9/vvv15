@@ -4,6 +4,7 @@ import styled from 'styled-components';
 const Card = () => {
   const [selectedColor, setSelectedColor] = useState(1); // Default to second color (Team Navy)
   const [selectedSize, setSelectedSize] = useState('s'); // Default size
+  const [isModalOpen, setIsModalOpen] = useState(false); // State for modal
 
   const colors = [
     { id: 0, name: 'ذهبي جامعي', color: '#ffd426' },
@@ -20,6 +21,14 @@ const Card = () => {
 
   const handleSizeChange = (size) => {
     setSelectedSize(size);
+  };
+
+  const handleMoreClick = () => {
+    setIsModalOpen(true);
+  };
+
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
   };
 
   // مكون اللودر المستمر - نمط الأسهم
