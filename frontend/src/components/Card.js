@@ -625,17 +625,52 @@ const MiniCard = styled.div`
 `;
 
 const MiniCardImage = styled.div`
-  height: 100px;
-  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  height: 110px;
+  background: linear-gradient(135deg, 
+    #f8fafc 0%, 
+    #e2e8f0 45%, 
+    #cbd5e1 100%);
   display: flex;
   align-items: center;
   justify-content: center;
+  position: relative;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, 
+      rgba(255, 255, 255, 0.4) 0%, 
+      rgba(255, 255, 255, 0.1) 50%, 
+      rgba(255, 255, 255, 0.2) 100%);
+    backdrop-filter: blur(10px);
+  }
   
   img {
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
     object-fit: cover;
     border-radius: 50%;
+    border: 3px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 
+      0 8px 25px -8px rgba(0, 0, 0, 0.25),
+      0 0 0 1px rgba(255, 255, 255, 0.05),
+      inset 0 1px 0 rgba(255, 255, 255, 0.8);
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease;
+  }
+  
+  &:hover img {
+    transform: scale(1.05);
+    box-shadow: 
+      0 12px 35px -8px rgba(0, 0, 0, 0.35),
+      0 0 0 1px rgba(255, 255, 255, 0.1),
+      0 0 20px rgba(59, 130, 246, 0.3),
+      inset 0 1px 0 rgba(255, 255, 255, 0.9);
   }
 `;
 
