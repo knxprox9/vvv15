@@ -410,12 +410,26 @@ const ArrowLoaderWrapper = styled.div`
     display: block;
     width: 10px;
     height: 10px;
-    border-bottom: 3px solid;
-    border-right: 3px solid;
-    border-image: linear-gradient(45deg, #ff6ba1, #00b9ff, #ffd426, #22c55e) 1;
+    border-bottom: 3px solid white;
+    border-right: 3px solid white;
     transform: rotate(45deg);
     margin: -10px;
     animation: animate28797 2s infinite;
+  }
+
+  .arrow span:nth-child(1) {
+    border-bottom-color: #ff6ba1;
+    border-right-color: #ff6ba1;
+  }
+
+  .arrow span:nth-child(2) {
+    border-bottom-color: #00b9ff;
+    border-right-color: #00b9ff;
+  }
+
+  .arrow span:nth-child(3) {
+    border-bottom-color: #ffd426;
+    border-right-color: #ffd426;
   }
 
   .arrow span:nth-child(2) {
