@@ -434,6 +434,16 @@ const ArrowLoaderWrapper = styled.div`
     border-right-color: #ffd426;
   }
 
+  .arrow span:nth-child(4) {
+    border-bottom-color: #22c55e;
+    border-right-color: #22c55e;
+  }
+
+  .arrow span:nth-child(5) {
+    border-bottom-color: #8b5cf6;
+    border-right-color: #8b5cf6;
+  }
+
   .arrow span:nth-child(2) {
     animation-delay: -0.2s;
   }
