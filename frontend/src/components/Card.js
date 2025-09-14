@@ -185,14 +185,14 @@ const Card = () => {
               <CloseButton onClick={handleCloseModal}>×</CloseButton>
             </ModalHeader>
             <CardsGrid>
-              {Array.from({ length: 12 }, (_, index) => (
+              {products.map((product, index) => (
                 <MiniCard key={index}>
                   <MiniCardImage>
-                    <img src="https://customer-assets.emergentagent.com/job_site-refresher/artifacts/udth1qz2_1757617210840.png" alt={`منتج ${index + 1}`} />
+                    <img src="https://customer-assets.emergentagent.com/job_site-refresher/artifacts/udth1qz2_1757617210840.png" alt={product} />
                   </MiniCardImage>
                   <MiniCardContent>
-                    <h3>بطاقة إلكترونية {index + 1}</h3>
-                    <p>منتج رقمي عالي الجودة</p>
+                    <h3>{product}</h3>
+                    <p>بطاقة إلكترونية عالية الجودة</p>
                     <MiniCardPrice>{(index + 1) * 50} ريال</MiniCardPrice>
                   </MiniCardContent>
                 </MiniCard>
