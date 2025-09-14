@@ -442,6 +442,14 @@ const ArrowLoaderWrapper = styled.div`
     animation-delay: -0.4s;
   }
 
+  .arrow span:nth-child(4) {
+    animation-delay: -0.6s;
+  }
+
+  .arrow span:nth-child(5) {
+    animation-delay: -0.8s;
+  }
+
   @keyframes animate28797 {
     0% {
       opacity: 0;
