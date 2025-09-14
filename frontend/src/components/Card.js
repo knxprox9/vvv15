@@ -606,15 +606,15 @@ const MiniCard = styled.div`
 `;
 
 const MiniCardImage = styled.div`
-  height: 120px;
+  height: 100px;
   background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
   display: flex;
   align-items: center;
   justify-content: center;
   
   img {
-    width: 80px;
-    height: 80px;
+    width: 70px;
+    height: 70px;
     object-fit: cover;
     border-radius: 50%;
   }
