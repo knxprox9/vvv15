@@ -621,7 +621,7 @@ const MiniCardImage = styled.div`
 `;
 
 const MiniCardContent = styled.div`
-  padding: 1rem;
+  padding: 0.75rem;
   text-align: center;
   font-family: 'Tajawal', Arial, sans-serif;
   
@@ -629,13 +629,13 @@ const MiniCardContent = styled.div`
     color: #144076;
     font-size: 0.9rem;
     font-weight: 600;
-    margin: 0 0 0.5rem 0;
+    margin: 0 0 0.25rem 0;
   }
   
   p {
     color: #6b7280;
-    font-size: 0.75rem;
-    margin: 0 0 0.75rem 0;
+    font-size: 0.7rem;
+    margin: 0 0 0.5rem 0;
   }
 `;
 
