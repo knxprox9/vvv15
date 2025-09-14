@@ -700,29 +700,35 @@ const MiniCardImage = styled.div`
 `;
 
 const MiniCardContent = styled.div`
-  padding: 1rem 0.75rem;
+  padding: 0.75rem 0.5rem;
   text-align: center;
   font-family: 'Tajawal', Arial, sans-serif;
   background: linear-gradient(135deg, 
     rgba(255, 255, 255, 0.9) 0%, 
     rgba(248, 250, 252, 0.8) 100%);
   backdrop-filter: blur(10px);
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   
   h3 {
     color: #144076;
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     font-weight: 700;
-    margin: 0 0 0.4rem 0;
+    margin: 0 0 0.25rem 0;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
+    line-height: 1.2;
   }
   
   p {
     color: #6b7280;
-    font-size: 0.7rem;
-    margin: 0 0 0.6rem 0;
+    font-size: 0.65rem;
+    margin: 0 0 0.5rem 0;
     font-weight: 500;
     opacity: 0.8;
+    line-height: 1.3;
   }
 `;
 
