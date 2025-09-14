@@ -543,13 +543,20 @@ const ModalOverlay = styled.div`
 `;
 
 const ModalContent = styled.div`
-  background: white;
-  border-radius: 1rem;
+  background: linear-gradient(135deg, 
+    rgba(255, 255, 255, 0.95) 0%, 
+    rgba(248, 250, 252, 0.9) 100%);
+  backdrop-filter: blur(20px);
+  border-radius: 1.5rem;
   width: 90%;
   max-width: 1000px;
   max-height: 90vh;
   overflow-y: auto;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  box-shadow: 
+    0 25px 50px -12px rgba(0, 0, 0, 0.5),
+    0 0 0 1px rgba(255, 255, 255, 0.05),
+    inset 0 1px 0 rgba(255, 255, 255, 0.25);
+  border: 1px solid rgba(255, 255, 255, 0.18);
   direction: rtl;
 `;
 
