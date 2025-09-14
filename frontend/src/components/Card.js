@@ -735,21 +735,22 @@ const MiniCardContent = styled.div`
 const MiniCardPrice = styled.div`
   color: #22c55e;
   font-weight: 800;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-shadow: 0 1px 2px rgba(34, 197, 94, 0.2);
   background: linear-gradient(135deg, #22c55e, #16a34a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   position: relative;
+  margin-top: auto;
   
   &::before {
     content: '';
     position: absolute;
-    bottom: -2px;
+    bottom: -3px;
     left: 50%;
     transform: translateX(-50%);
-    width: 30px;
+    width: 25px;
     height: 2px;
     background: linear-gradient(90deg, #22c55e, #16a34a);
     border-radius: 1px;
