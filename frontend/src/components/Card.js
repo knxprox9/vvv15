@@ -121,7 +121,7 @@ const Card = () => {
                 </div>
                 <div className="description card">
                   <span className="title">
-                    الألوان
+                    المزيد
                   </span>
                   <Loader />
                 </div>
