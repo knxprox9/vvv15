@@ -603,8 +603,8 @@ const CloseButton = styled.button`
 const CardsGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  gap: 0.75rem 1.25rem;
+  grid-template-rows: repeat(4, auto);
+  gap: 1rem 1.5rem;
   padding: 2rem;
   background: linear-gradient(135deg, 
     rgba(255, 255, 255, 0.1) 0%, 
