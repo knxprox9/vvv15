@@ -594,8 +594,11 @@ const CardsGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  gap: 0.5rem 1.5rem;
+  gap: 0.75rem 1.25rem;
   padding: 2rem;
+  background: linear-gradient(135deg, 
+    rgba(255, 255, 255, 0.1) 0%, 
+    rgba(248, 250, 252, 0.05) 100%);
 `;
 
 const MiniCard = styled.div`
