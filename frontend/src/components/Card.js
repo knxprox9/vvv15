@@ -428,7 +428,7 @@ const ArrowLoaderWrapper = styled.div`
   @keyframes animate28797 {
     0% {
       opacity: 0;
-      transform: rotate(45deg) translate(-20px, -20px);
+      transform: rotate(45deg) translate(-15px, -15px);
     }
 
     50% {
@@ -437,7 +437,7 @@ const ArrowLoaderWrapper = styled.div`
 
     100% {
       opacity: 0;
-      transform: rotate(45deg) translate(20px, 20px);
+      transform: rotate(45deg) translate(15px, 15px);
     }
   }
 `;
