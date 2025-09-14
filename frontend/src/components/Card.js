@@ -544,7 +544,7 @@ const UiverseWrapper = styled.div`
 
   & .services-data {
     position: absolute;
-    top: 25px;
+    top: 18px;
     left: 1px;
     right: 1px;
     display: flex;
