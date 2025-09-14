@@ -570,7 +570,8 @@ const CloseButton = styled.button`
 
 const CardsGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   gap: 1.5rem;
   padding: 2rem;
 `;
