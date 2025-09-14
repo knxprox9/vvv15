@@ -130,7 +130,7 @@ const Card = () => {
                     </div>
                   </div>
                 </div>
-                <div className="description card">
+                <div className="description card" onClick={handleMoreClick}>
                   <span className="title">
                     المزيد
                   </span>
