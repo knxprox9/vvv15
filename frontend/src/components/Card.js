@@ -628,8 +628,8 @@ const UiverseWrapper = styled.div`
     line-height: 1.3;
     padding-right: 8px; /* مساحة إضافية من الحافة اليمنى (RTL) */
     display: grid;
-    grid-template-columns: 8px auto;
-    column-gap: 1px; /* تقليل المسافة بين النقطة والنص أكثر */
+    grid-template-columns: 6px auto;
+    column-gap: 3px;
     align-items: center;
     width: 100%;
     transform: scale(1.08);
