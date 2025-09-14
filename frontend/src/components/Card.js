@@ -499,7 +499,6 @@ const UiverseWrapper = styled.div`
   & .title {
     color: #ffffff;
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-    font-size: 13px;
   }
 
   & .inner-card {
