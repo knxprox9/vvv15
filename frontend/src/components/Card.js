@@ -410,8 +410,9 @@ const ArrowLoaderWrapper = styled.div`
     display: block;
     width: 10px;
     height: 10px;
-    border-bottom: 3px solid white;
-    border-right: 3px solid white;
+    border-bottom: 3px solid;
+    border-right: 3px solid;
+    border-image: linear-gradient(45deg, #ff6ba1, #00b9ff, #ffd426, #22c55e) 1;
     transform: rotate(45deg);
     margin: -10px;
     animation: animate28797 2s infinite;
