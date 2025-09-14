@@ -160,6 +160,32 @@ const Card = () => {
           </div>
         </div>
       </div>
+
+      {/* Modal for displaying product cards */}
+      {isModalOpen && (
+        <ModalOverlay onClick={handleCloseModal}>
+          <ModalContent onClick={(e) => e.stopPropagation()}>
+            <ModalHeader>
+              <h2>بطاقات المنتجات</h2>
+              <CloseButton onClick={handleCloseModal}>×</CloseButton>
+            </ModalHeader>
+            <CardsGrid>
+              {Array.from({ length: 12 }, (_, index) => (
+                <MiniCard key={index}>
+                  <MiniCardImage>
+                    <img src="https://customer-assets.emergentagent.com/job_site-refresher/artifacts/udth1qz2_1757617210840.png" alt={`منتج ${index + 1}`} />
+                  </MiniCardImage>
+                  <MiniCardContent>
+                    <h3>بطاقة إلكترونية {index + 1}</h3>
+                    <p>منتج رقمي عالي الجودة</p>
+                    <MiniCardPrice>{(index + 1) * 50} ريال</MiniCardPrice>
+                  </MiniCardContent>
+                </MiniCard>
+              ))}
+            </CardsGrid>
+          </ModalContent>
+        </ModalOverlay>
+      )}
     </StyledWrapper>
   );
 };
