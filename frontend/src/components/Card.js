@@ -649,7 +649,7 @@ const MiniCard = styled.div`
 `;
 
 const MiniCardImage = styled.div`
-  height: 110px;
+  height: 130px;
   background: linear-gradient(135deg, 
     #f8fafc 0%, 
     #e2e8f0 45%, 
@@ -658,6 +658,7 @@ const MiniCardImage = styled.div`
   align-items: center;
   justify-content: center;
   position: relative;
+  flex-shrink: 0;
   
   &::before {
     content: '';
@@ -674,13 +675,13 @@ const MiniCardImage = styled.div`
   }
   
   img {
-    width: 75px;
-    height: 75px;
+    width: 85px;
+    height: 85px;
     object-fit: cover;
     border-radius: 50%;
     border: 3px solid rgba(255, 255, 255, 0.8);
     box-shadow: 
-      0 8px 25px -8px rgba(0, 0, 0, 0.25),
+      0 6px 20px -6px rgba(0, 0, 0, 0.25),
       0 0 0 1px rgba(255, 255, 255, 0.05),
       inset 0 1px 0 rgba(255, 255, 255, 0.8);
     position: relative;
@@ -691,7 +692,7 @@ const MiniCardImage = styled.div`
   &:hover img {
     transform: scale(1.05);
     box-shadow: 
-      0 12px 35px -8px rgba(0, 0, 0, 0.35),
+      0 10px 30px -6px rgba(0, 0, 0, 0.35),
       0 0 0 1px rgba(255, 255, 255, 0.1),
       0 0 20px rgba(59, 130, 246, 0.3),
       inset 0 1px 0 rgba(255, 255, 255, 0.9);
