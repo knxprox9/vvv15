@@ -558,8 +558,8 @@ const ModalContent = styled.div`
     rgba(248, 250, 252, 0.9) 100%);
   backdrop-filter: blur(20px);
   border-radius: 1.5rem;
-  width: 90%;
-  max-width: 1000px;
+  width: 95%;
+  max-width: 1200px;
   max-height: 90vh;
   overflow-y: auto;
   box-shadow: 
