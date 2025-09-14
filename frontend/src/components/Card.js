@@ -587,7 +587,7 @@ const CardsGrid = styled.div`
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  gap: 1.5rem;
+  gap: 0.5rem 1.5rem;
   padding: 2rem;
 `;
 
