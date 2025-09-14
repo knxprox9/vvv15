@@ -27,6 +27,10 @@ const Card = () => {
     setIsModalOpen(true);
   };
 
+  const handleCloseModal = () => {
+    setIsModalOpen(false);
+  };
+
   const products = [
     'PlayStation',
     'Fortnite', 
