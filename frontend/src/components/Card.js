@@ -29,6 +29,8 @@ const Card = () => {
         <span />
         <span />
         <span />
+        <span />
+        <span />
       </div>
     </ArrowLoaderWrapper>
   );
