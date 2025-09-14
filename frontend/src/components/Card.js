@@ -671,6 +671,7 @@ const UiverseWrapper = styled.div`
       rgba(20, 64, 118, 0.85) 100%);
     border-radius: .5rem 2rem;
     border: 1px solid rgba(255, 255, 255, 0.15);
+    cursor: pointer;
   }
 
   & .description:hover {
