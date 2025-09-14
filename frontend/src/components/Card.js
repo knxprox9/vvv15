@@ -615,7 +615,7 @@ const MiniCard = styled.div`
   background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
   border-radius: 12px;
   box-shadow: 
-    0 8px 25px -8px rgba(0, 0, 0, 0.15),
+    0 6px 20px -6px rgba(0, 0, 0, 0.15),
     0 0 0 1px rgba(255, 255, 255, 0.05),
     inset 0 1px 0 rgba(255, 255, 255, 0.25);
   overflow: hidden;
@@ -623,6 +623,10 @@ const MiniCard = styled.div`
   border: 1px solid rgba(255, 255, 255, 0.18);
   backdrop-filter: blur(10px);
   position: relative;
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   
   &::before {
     content: '';
@@ -635,11 +639,11 @@ const MiniCard = styled.div`
   }
   
   &:hover {
-    transform: translateY(-4px) scale(1.02);
+    transform: translateY(-3px) scale(1.02);
     box-shadow: 
-      0 20px 40px -12px rgba(0, 0, 0, 0.25),
+      0 15px 35px -8px rgba(0, 0, 0, 0.25),
       0 0 0 1px rgba(255, 255, 255, 0.1),
-      0 0 30px rgba(59, 130, 246, 0.15),
+      0 0 25px rgba(59, 130, 246, 0.15),
       inset 0 1px 0 rgba(255, 255, 255, 0.4);
   }
 `;
